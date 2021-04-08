@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(179, 177, 177);
+    font-family: 'New Tegomin', serif;
+}
+h1{
+   
+    text-align: center;
+    color: rgb(22, 167, 224);
+    font-size: 60px;
+    font-weight: bold;
+}
+.main-div{
+    background-color: snow;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+textarea{
+    border: 2px solid rgb(22, 167, 224);
+    border-radius: 15px;
+    box-shadow: rgb(22, 167, 224);
+    margin-top: 65px;
+    margin-left: 40px;
+}
+textarea::placeholder{
+    font-family: 'New Tegomin', serif;
+    color: rgb(88, 85, 85);
+}
+
+textarea:focus{
+    outline: 3px solid transparent;
+}
+span{
+    display: block;
+    color: rgb(22, 167, 224);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.count-div{
+    background-color: rgb(22, 167, 224);
+    margin-top: 70px;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+p{
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
